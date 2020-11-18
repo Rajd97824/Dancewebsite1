@@ -1,0 +1,64 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+      include ../static/styleContact.css
+
+block content
+    
+
+    section#introsection
+        div Welcome to Raj Dance Academy
+        div.small The world of Dance
+
+    section#missionsection
+        h1 Our Mission
+        .card
+            h3 Dance Perfection
+            .card-box
+                .card-img
+                    img(src="/static/logo2 (1).png")
+                .card-content 
+                    p This is the best academy of the universe.Our academy provide best qualities and services .So join the academy now.
+        .card
+            h3 Dance the way you like
+            .card-box
+                .card-img                                                                                                       
+                    img(src="/static/l1.jpg")
+                .card-content 
+                    p This is the best academy of the universe.Our academy provides best qualities and services.So join the academy now.
+        .card
+            h3 Expert Teaching
+            .card-box
+                .card-img
+                    img(src="/static/l3.jpg")
+                .card-content 
+                    p This is the best academy of the universe.Our academy provides best qualities and services.So join the academy now.
+
+    section#sponsorssection
+        h1 Our Sponsors
+        #sponsors
+            img(src="/static/paypal.jpg", alt="sponsor image",class="spimage")
+            img(src="/static/walmart.jpg", alt="sponsor image",class="spimage")
+            img(src="/static/fedex.jpg", alt="sponsor image",class="spimage")
+            img(src="/static/hp.jpg", alt="sponsor image",class="spimage")
+          
+      
+         
+    
+
+  
+
+
+  
+
+    
+            
+
+         
+         
+        
